@@ -66,7 +66,7 @@ public class LibraryApp {
 
         System.out.print("\nEnter the ID of the book to check out (or 0 to go back): ");
         int id = input.nextInt();
-        input.nextLine(); // clear newline
+        input.nextLine();
 
         if (id > 0 && id <= inventory.length) {
             Book book = inventory[id - 1];
